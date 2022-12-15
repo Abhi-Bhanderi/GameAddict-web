@@ -1,0 +1,42 @@
+/* ---------------------------- Navbar ------------------------------ */
+.navbar {
+  justify-content: space-between;
+  align-items: center;
+  padding-inline-start: 3%;
+  padding-inline-end: 2%;
+  padding-block: 1rem;
+}
+
+.navbar_links_list {
+  gap: 0.8rem;
+}
+
+.nav_link {
+  color: #fff;
+  font-size: 1.3rem;
+  padding: 10px 20px 10px 20px;
+  transition: 300ms ease-in-out;
+}
+
+.nav_link:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.navbar_links_list:nth-child(5) {
+  margin-right: 0 !important;
+}
+
+.menu-icon {
+  display: none;
+}
+
+@media (max-width: 780px) {
+  .menu-icon {
+    font-size: 2rem;
+    color: #fff;
+    display: block;
+  }
+  .navbar_links_list {
+    display: none;
+  }
+}
